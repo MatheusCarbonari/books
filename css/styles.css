@@ -1,0 +1,30 @@
+/*IMPORTS*/
+
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+/*css styles*/
+@import url("header.css");
+@import url("banner.css");
+@import url("carossel.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("footer.css");
+
+/*VARIÁVEIS CSS*/
+:root{
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #eb9b00;
+    --azul-font: #002F52;
+    --font-poppins:'Poppins', sans-serif;
+    --font-josefin:'Josefin Sans', sans-serif;
+    --preto: #000;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-poppins);
+    font-weight: 400;
+    font-size: 1rem;
+}
